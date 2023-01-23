@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1", "A1\A1.csproj", "{34302D1E-EAA2-4DF0-A2D8-92555A64434F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendLibrary", "BackendLibrary\BackendLibrary.csproj", "{A9AF6477-99CA-40FB-A736-84FC8923359A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34302D1E-EAA2-4DF0-A2D8-92555A64434F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34302D1E-EAA2-4DF0-A2D8-92555A64434F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34302D1E-EAA2-4DF0-A2D8-92555A64434F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34302D1E-EAA2-4DF0-A2D8-92555A64434F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AF6477-99CA-40FB-A736-84FC8923359A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AF6477-99CA-40FB-A736-84FC8923359A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AF6477-99CA-40FB-A736-84FC8923359A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AF6477-99CA-40FB-A736-84FC8923359A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
