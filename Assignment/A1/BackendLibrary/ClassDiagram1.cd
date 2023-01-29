@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="BackendLibrary.Animal">
-    <Position X="11.75" Y="1.5" Width="1.5" />
+  <Class Name="BackendLibrary.Animal" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAACAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Animal.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BackendLibrary.Cat">
-    <Position X="6.25" Y="5.5" Width="1.5" />
+  <Class Name="BackendLibrary.Bird" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Cat.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BackendLibrary.Dog">
-    <Position X="8.5" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Dog.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BackendLibrary.Mammal">
-    <Position X="7.25" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Mammal.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BackendLibrary.Reptile">
-    <Position X="11.75" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Reptile.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BackendLibrary.Bird">
-    <Position X="16.25" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>Bird.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BackendLibrary.Dove">
-    <Position X="15.25" Y="5.5" Width="1.5" />
+  <Class Name="BackendLibrary.Cat" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackendLibrary.Dog" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackendLibrary.Dove" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Dove.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BackendLibrary.Eagle">
-    <Position X="17.5" Y="5.5" Width="1.5" />
+  <Class Name="BackendLibrary.Eagle" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Eagle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BackendLibrary.Lizard">
-    <Position X="10.75" Y="5.5" Width="1.5" />
+  <Class Name="BackendLibrary.Lizard" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Lizard.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BackendLibrary.Snake">
-    <Position X="13" Y="5.5" Width="1.5" />
+  <Class Name="BackendLibrary.Mammal" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mammal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackendLibrary.Reptile" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reptile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackendLibrary.Snake" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Snake.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="BackendLibrary.TGender">
-    <Position X="18" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABA=</HashCode>
-      <FileName>TGender.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="BackendLibrary.TCategory">
-    <Position X="16.25" Y="1.5" Width="1.5" />
+  <Enum Name="BackendLibrary.TCategory" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
       <FileName>TCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BackendLibrary.TGender" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>TGender.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

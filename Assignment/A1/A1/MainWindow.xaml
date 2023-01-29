@@ -7,6 +7,44 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="auto">
+            <Menu>
+                <Menu.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <DockPanel HorizontalAlignment="Left"/>
+                    </ItemsPanelTemplate>
+                </Menu.ItemsPanel>
+                <MenuItem Header="_File">
+                    <MenuItem Header="_Exit"/>
+                </MenuItem>
+                <MenuItem Header="_Help">
+                    <MenuItem Header="_About"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+        
+        <StackPanel Margin="10,10,-10,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+        </StackPanel>
+        <!-- <Grid.ColumnDefinitions> -->
+        <!--     <ColumnDefinition Width="20"/> -->
+        <!--     <ColumnDefinition Width="20"/> -->
+        <!--     <ColumnDefinition Width="*"/> -->
+        <!--     <ColumnDefinition Width="20"/> -->
+        <!--     <ColumnDefinition Width="*"/> -->
+        <!--     <ColumnDefinition Width="20"/> -->
+        <!-- </Grid.ColumnDefinitions> -->
+        <!-- -->
+        <!-- <Grid.RowDefinitions> -->
+        <!--     <RowDefinition Height="20"/> -->
+        <!--     <RowDefinition Height="20"/> -->
+        <!--     <RowDefinition Height="*"/> -->
+        <!--     <RowDefinition Height="20"/> -->
+        <!--     <RowDefinition Height="*"/> -->
+        <!--     <RowDefinition Height="*"/> -->
+        <!--     <RowDefinition Height="20"/> -->
+        <!-- </Grid.RowDefinitions> -->
+        <!-- -->
 
-    </Grid>
+    </Grid>     
 </Window>

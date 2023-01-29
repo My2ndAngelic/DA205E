@@ -19,3 +19,6 @@ C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1\obj\Debug\net7.0-w
 C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1\obj\Debug\net7.0-windows\A1.pdb
 C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1\obj\Debug\net7.0-windows\A1.genruntimeconfig.cache
 C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1\obj\Debug\net7.0-windows\ref\A1.dll
+C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1\bin\Debug\net7.0-windows\BackendLibrary.dll
+C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1\bin\Debug\net7.0-windows\BackendLibrary.pdb
+C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1\obj\Debug\net7.0-windows\A1.csproj.CopyComplete
