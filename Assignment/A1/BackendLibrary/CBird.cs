@@ -4,6 +4,8 @@ namespace BackendLibrary
 {
     public class CBird : Animal
     {
-        public string IDPre = "B";
+        public readonly string CatPre = "B";
+
+        public int FlyingSpeed = 0;
     }
 }

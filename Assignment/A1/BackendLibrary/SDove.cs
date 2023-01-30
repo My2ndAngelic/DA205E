@@ -7,5 +7,12 @@ namespace BackendLibrary
 {
     public class SDove : CBird
     {
+        public const string SpecPre = "D";
+        
+        
+        public SDove()
+        {
+            Id = $"{CatPre}{SpecPre}";
+        }
     }
 }

@@ -1,0 +1,52 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="A1MainAva.MainWindow"
+        Title="A1MainAva">
+    
+    <Grid ColumnDefinitions="20,20,*,20" RowDefinitions="20,20,*,20,*,20">
+        <!-- <StackPanel Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="auto"> -->
+        <!-- </StackPanel> -->
+        <!-- -->
+        <!-- <StackPanel Margin="10,10,-10,0" HorizontalAlignment="Center" VerticalAlignment="Center"> -->
+        <!--      -->
+        <!-- </StackPanel> -->
+
+        <Menu Grid.ColumnSpan="69420">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <DockPanel HorizontalAlignment="Left"/>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem Header="_File">
+                <MenuItem Header="_Exit"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About"/>
+            </MenuItem>
+        </Menu>
+
+        <Grid Grid.Row="2" Grid.Column="2" ColumnDefinitions="*,*,*" RowDefinitions="*,*,*">
+
+        </Grid>
+        
+        <Grid Grid.Row="4" Grid.Column="2" ColumnDefinitions="20,*,20,*,20" RowDefinitions="20, *, 20, *, 20">
+            
+            
+            <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal">
+                <TextBlock Text="Hello World"/>
+                <Rectangle VerticalAlignment="Stretch" Width="10"/>
+                <TextBox Text="Hi there" Height="25" VerticalAlignment="Top"/>
+            </StackPanel>
+            
+            <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
+                <TextBlock Text="Hello World" />
+                <Rectangle VerticalAlignment="Stretch" Width="10"/>
+                <TextBox Text="Hi there" Height="25" VerticalAlignment="Top"/>
+            </StackPanel>
+        </Grid>
+        
+    </Grid>     
+</Window>

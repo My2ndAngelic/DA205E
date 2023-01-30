@@ -7,5 +7,10 @@ namespace BackendLibrary
 {
     public class SEagle : CBird
     {
+        public const string SpecPre = "E";
+        public SEagle()
+        {
+            Id = $"{CatPre}{SpecPre}";
+        }
     }
 }

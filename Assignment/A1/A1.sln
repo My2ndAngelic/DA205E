@@ -1,10 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1", "A1\A1.csproj", "{34302D1E-EAA2-4DF0-A2D8-92555A64434F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1MainWPF", "A1MainWPF\A1MainWPF.csproj", "{34302D1E-EAA2-4DF0-A2D8-92555A64434F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendLibrary", "BackendLibrary\BackendLibrary.csproj", "{A9AF6477-99CA-40FB-A736-84FC8923359A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1Console", "A1Console\A1Console.csproj", "{9D40DB71-548B-4073-8842-53AC9F8704D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1MainAva", "A1MainAva\A1MainAva.csproj", "{7A6F113E-2A35-43F1-B072-1A046C696262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1MainMAUI", "A1MainMAUI\A1MainMAUI.csproj", "{92697A86-7A45-4879-81DC-AF255A6ED637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +28,13 @@ Global
 		{9D40DB71-548B-4073-8842-53AC9F8704D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D40DB71-548B-4073-8842-53AC9F8704D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D40DB71-548B-4073-8842-53AC9F8704D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6F113E-2A35-43F1-B072-1A046C696262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6F113E-2A35-43F1-B072-1A046C696262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6F113E-2A35-43F1-B072-1A046C696262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6F113E-2A35-43F1-B072-1A046C696262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92697A86-7A45-4879-81DC-AF255A6ED637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92697A86-7A45-4879-81DC-AF255A6ED637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92697A86-7A45-4879-81DC-AF255A6ED637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92697A86-7A45-4879-81DC-AF255A6ED637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
