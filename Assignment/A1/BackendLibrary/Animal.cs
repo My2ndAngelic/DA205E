@@ -23,5 +23,12 @@
             Gender = TGender.Unknown;
             Id = string.Empty;
         }
+
+        public override string ToString()
+        {
+            return $@"Name: {Name}
+Age: {Age}
+Gender: {Gender}";
+        }
     }
 }
