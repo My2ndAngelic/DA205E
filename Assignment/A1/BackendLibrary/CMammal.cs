@@ -4,12 +4,12 @@
     {
         public const string CatPre = "M";
 
-        public int NumberOfTeeth = 0;
+        public int CatData = 0; // Number of teeth
 
         public override string ToString()
         {
             return $@"{base.ToString()}
-Number of teeth: {NumberOfTeeth}";
+Number of teeth: {CatData}";
         }
     }
 

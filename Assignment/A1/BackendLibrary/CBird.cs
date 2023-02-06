@@ -4,12 +4,12 @@
     {
         public readonly string CatPre = "B";
 
-        public int FlyingSpeed = 0;
+        public int CatData = 0; // Flying speed
 
         public override string ToString()
         {
             return $@"{base.ToString()}
-Flying speed: {FlyingSpeed}";
+Flying speed: {CatData}";
         }
     }
 

@@ -1,6 +1,6 @@
 ﻿using BackendLibrary;
 
-Animal a = null;
+Animal? a = null;
 IAnimalList animalList = new IAnimalList();
 a = new SCat("John", 69, TGender.Male, 32,420);
 

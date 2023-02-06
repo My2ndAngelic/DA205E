@@ -4,9 +4,9 @@ namespace BackendLibrary
 {
     public class IAnimalList : IList<Animal>
     {
-        private List<Animal> listAnimals = new List<Animal>();
+        private List<Animal?> listAnimals = new List<Animal?>();
         
-        public IEnumerator<Animal> GetEnumerator()
+        public IEnumerator<Animal?> GetEnumerator()
         {
             return listAnimals.GetEnumerator();
         }
@@ -16,7 +16,7 @@ namespace BackendLibrary
             return listAnimals.GetEnumerator();
         }
 
-        public void Add(Animal item)
+        public void Add(Animal? item)
         {
             listAnimals.Add(item);
         }
@@ -26,7 +26,7 @@ namespace BackendLibrary
             listAnimals.Clear();
         }
 
-        public bool Contains(Animal item)
+        public bool Contains(Animal? item)
         {
             return listAnimals.Contains(item);
         }
@@ -36,7 +36,7 @@ namespace BackendLibrary
             throw new NotImplementedException();
         }
 
-        public bool Remove(Animal item)
+        public bool Remove(Animal? item)
         {
             return listAnimals.Remove(item);
         }
@@ -51,12 +51,12 @@ namespace BackendLibrary
             get { return false; }
         }
 
-        public int IndexOf(Animal item)
+        public int IndexOf(Animal? item)
         {
             return listAnimals.IndexOf(item);
         }
 
-        public void Insert(int index, Animal item)
+        public void Insert(int index, Animal? item)
         {
             listAnimals.Insert(index, item);
         }
@@ -66,13 +66,13 @@ namespace BackendLibrary
             listAnimals.RemoveAt(index);
         }
 
-        public Animal this[int index]
+        public Animal? this[int index]
         {
             get { return listAnimals[index]; }
             set { listAnimals[index] = value;  }
         }
 
-        public string ReturnID(Animal item)
+        public string ReturnID(Animal? item)
         {
             return $@"{item.Id}{listAnimals.IndexOf(item):0000}";
         }

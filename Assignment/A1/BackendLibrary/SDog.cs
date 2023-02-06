@@ -2,7 +2,7 @@
 {
     public class SDog : CMammal
     {
-        public int TailLength { get; set; }
+        public int SpecData { get; set; }
         
         public const string SpecPre = "D";
 
@@ -11,20 +11,20 @@
             Id = $"{CatPre}{SpecPre}";
         }
         
-        public SDog(string name, int age, TGender gender, int numberOfTeeth, int tailLength)
+        public SDog(string name, int age, TGender gender, int catData, int specData)
         {
             Name = name;
             Age = age;
             Gender = gender;
-            NumberOfTeeth = numberOfTeeth;
-            TailLength = tailLength;
+            CatData = catData;
+            SpecData = specData;
             Id = $"{CatPre}{SpecPre}";
         }
 
         public override string ToString()
         {
             return $@"{base.ToString()}
-Tail length: {TailLength}";
+Tail length: {SpecData} cm";
         }
     }
 }

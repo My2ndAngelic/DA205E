@@ -3,15 +3,15 @@
     public class SCat : CMammal
     {
         public const string SpecPre = "C";
-        public int NumberOfColor { get; set; }
+        public int SpecData { get; set; } // Number of color
 
-        public SCat(string name, int age, TGender gender, int numberOfTeeth, int numberOfColor)
+        public SCat(string name, int age, TGender gender, int catData, int specData)
         {
             Name = name;
             Age = age;
             Gender = gender;
-            NumberOfTeeth = numberOfTeeth;
-            NumberOfColor = numberOfColor;
+            CatData = catData;
+            SpecData = specData;
             Id = $"{CatPre}{SpecPre}";
         }
 
@@ -23,7 +23,7 @@
         public override string ToString()
         {
             return $@"{base.ToString()}
-Number of color: {NumberOfColor}";
+Number of color: {SpecData}";
         }
     }
 }

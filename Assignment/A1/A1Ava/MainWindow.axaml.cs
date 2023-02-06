@@ -22,7 +22,7 @@ namespace A1Ava
             LoadGenders();
         }
         
-        private Animal tempAnimal = null;
+        private Animal? tempAnimal = null;
         private IAnimalList animalList = new IAnimalList();
         private string? photoFile = string.Empty;
 
@@ -91,7 +91,7 @@ namespace A1Ava
 
         private void ButtonLoadPhoto_OnClick(object? sender, RoutedEventArgs e)
         {
-            if ((photoFile = new OpenFileDialog{AllowMultiple = false}.ShowAsync(this).Result?[0]) is null) return;
+            if ((photoFile = new OpenFileDialog{AllowMultiple = false}.ShowAsync(this).Result?[0]) is null) return; // If user cancelled the dialog because DialogResult.OK simply does not exist.
             try
             {
                 Stream stream = new FileStream(path: photoFile, mode: FileMode.Open, access: FileAccess.Read,
@@ -101,10 +101,10 @@ namespace A1Ava
             }
             catch (ArgumentException) // Fail to load image
             {
-                MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams
+                MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams // Package required: MesssageBox.Avalonia
                 {
                     ButtonDefinitions = ButtonEnum.Ok,
-                    ContentTitle = "Failed",
+                    ContentTitle = "Error",
                     ContentMessage = "Fail to display image.",
                     WindowIcon = Icon,
                     Icon = MessageBox.Avalonia.Enums.Icon.Error,
@@ -120,7 +120,44 @@ namespace A1Ava
 
         private void ButtonSaveAnimal_OnClick(object? sender, RoutedEventArgs e)
         {
-            
+            try
+            {
+                switch (ListBoxSpec.SelectedItem)
+                {
+                    case TBird.Dove:
+                        tempAnimal = new SDove();
+                        DebugText.Text = tempAnimal.ToString();
+                        
+                        
+                        break;
+                    case TBird.Eagle:
+                        tempAnimal = new SEagle();
+                        DebugText.Text = tempAnimal.ToString();
+
+                        break;
+                    case TMammal.Cat:
+                        tempAnimal = new SCat();
+                        DebugText.Text = tempAnimal.ToString();
+
+                        break;
+                    case TMammal.Dog:
+                        tempAnimal = new SDog();
+                        DebugText.Text = tempAnimal.ToString();
+
+                        break;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams // Package required: MesssageBox.Avalonia
+                {
+                    ButtonDefinitions = ButtonEnum.Ok,
+                    ContentTitle = "Error",
+                    ContentMessage = "Fail to save animal. Please check the input.",
+                    WindowIcon = Icon,
+                    Icon = MessageBox.Avalonia.Enums.Icon.Error,
+                }).Show();
+            }
         }
 
         /// <summary>
@@ -140,7 +177,7 @@ namespace A1Ava
             ListBoxCat.IsEnabled = false;
             ListBoxCat.SelectedIndex = -1;
             ListBoxSpec.Items = new List<Enum>(Enum.GetValues(typeof(TBird)).Cast<Enum>())
-                .Union(Enum.GetValues(typeof(TMammal)).Cast<Enum>());
+                .Union(Enum.GetValues(typeof(TMammal)).Cast<Enum>()); // join 2 enums list together
         }
     }
 }
