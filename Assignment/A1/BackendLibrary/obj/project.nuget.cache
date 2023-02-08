@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xdD/10vENE8GvPLeHbOHkpf9QneApWkBxQlPLUhtYJyTUQ5Rj8zj46+u0pLmHYLbnNY9j/yazD5br44Eg/Efig==",
+  "dgSpecHash": "ml/yw0tF/0LqQHWoj97mfvMGhxR+M2boizSf1bEwTv9jBWtRMCIiQ2yQnc1Ve68nbb1Y1wqGz10JV1kAmh/5YQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\My2ndAngelic\\Desktop\\Courses\\DA205E\\Assignment\\A1\\BackendLibrary\\BackendLibrary.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\s2207261\\RiderProjects\\DA205E\\Assignment\\A1\\BackendLibrary\\BackendLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s2207261\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\s2207261\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\s2207261\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
