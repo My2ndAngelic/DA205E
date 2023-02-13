@@ -2,7 +2,7 @@
 
 Animal? a = null;
 IAnimalList animalList = new IAnimalList();
-a = new SCat("John", 69, TGender.Male, 32,420);
+a = new SCat("John", 69, TGender.Male, 32, 420);
 
 Console.WriteLine(a.ToString());
 animalList.Add(a);

@@ -3,6 +3,6 @@
     public enum TCategory
     {
         Bird,
-        Mammal,
+        Mammal
     }
 }

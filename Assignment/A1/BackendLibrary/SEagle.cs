@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace BackendLibrary
+﻿namespace BackendLibrary
 {
     public class SEagle : CBird
     {
         public const string SpecPre = "E";
-        
-        public int SpecData = 0; // Weight kg
-        
+
+        public readonly TBird Species = TBird.Eagle;
+
+        public int SpecData = 0; // Feather length (cm)
+
         public SEagle()
         {
             Id = $"{CatPre}{SpecPre}";
@@ -19,7 +16,7 @@ namespace BackendLibrary
         public override string ToString()
         {
             return $@"{base.ToString()}
-Weight: {SpecPre} kg";
+Feather length: {SpecPre} cm";
         }
     }
 }

@@ -6,18 +6,18 @@
         x:Class="A1Ava.MainWindow"
         Title="A1Ava">
     <Grid ColumnDefinitions="20,20,*,20" RowDefinitions="20,20,*,20,*,20">
-        
+
         <Menu Grid.ColumnSpan="69420">
             <Menu.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <DockPanel HorizontalAlignment="Left"/>
+                    <DockPanel HorizontalAlignment="Left" />
                 </ItemsPanelTemplate>
             </Menu.ItemsPanel>
             <MenuItem Header="_File">
-                <MenuItem Header="_Exit" Click="MenuItem_OnClick"/>
+                <MenuItem Header="_Exit" Click="MenuItem_OnClick" />
             </MenuItem>
             <MenuItem Header="_Help">
-                <MenuItem Header="_About"/>
+                <MenuItem Header="_About" />
             </MenuItem>
         </Menu>
 
@@ -29,45 +29,49 @@
                     <TextBlock Grid.Row="0" Grid.Column="0" Text="Name" />
                     <TextBlock Grid.Row="2" Grid.Column="0" Text="Age" />
                     <TextBlock Grid.Row="4" Grid.Column="0" Text="Gender" />
-                    
-                    <TextBox Grid.Row="0" Grid.Column="2"/>
-                    <TextBox Grid.Row="2" Grid.Column="2"/>
-                    <ComboBox Grid.Row="4" Grid.Column="2" Name="ComboBoxGender" HorizontalAlignment="Stretch"/>
+
+                    <TextBox Grid.Row="0" Grid.Column="2" Name="TextBoxName" />
+                    <TextBox Grid.Row="2" Grid.Column="2" Name="TextBoxAge" />
+                    <ComboBox Grid.Row="4" Grid.Column="2" Name="ComboBoxGender" HorizontalAlignment="Stretch" />
                 </Grid>
-                <Grid Grid.Row="4" ColumnDefinitions="*, *">
-                    <Button Content="Save Animal" Name="ButtonSaveAnimal" Click="ButtonSaveAnimal_OnClick"/>
-                    <CheckBox Grid.Column="1" Name="CheckBoxAnimals" Click="CheckBoxAnimals_OnClick"/>
+                <Grid Grid.Row="4" ColumnDefinitions="*, *, *">
+                    <Button Content="Save Animal" Name="ButtonSaveAnimal" Click="ButtonSaveAnimal_OnClick" />
+                    <CheckBox Grid.Column="1" Name="CheckBoxAnimals" Click="CheckBoxAnimals_OnClick"
+                              HorizontalAlignment="Right" />
+                    <TextBlock Grid.Column="2" Text="Show all animals" VerticalAlignment="Center"
+                               HorizontalAlignment="Left" />
                 </Grid>
             </Grid>
-            
+
             <Grid Grid.Column="3" RowDefinitions="30, 20, *, 20, 30, 20, *">
                 <TextBlock Grid.Row="0" Text="Category specification" />
-                <ListBox Grid.Row="2" Name="ListBoxCat" SelectionChanged="ListBoxCat_OnSelectionChanged"/>
-                
-                <TextBlock Grid.Row="4" Text="Category data" />
-                <TextBox Grid.Row="6"/>
+                <ListBox Grid.Row="2" Name="ListBoxCat" SelectionChanged="ListBoxCat_OnSelectionChanged" />
+
+                <TextBlock Grid.Row="4" Text="Category data" Name="TextBlockCatData" />
+                <TextBox Grid.Row="6" Name="TextBoxCatData" />
             </Grid>
-            
+
             <Grid Grid.Column="5" RowDefinitions="30, 20, *, 20, 30, 20, *">
                 <TextBlock Grid.Row="0" Text="Species specification" />
-                <ListBox Grid.Row="2" Name="ListBoxSpec" SelectionChanged="ListBoxSpec_OnSelectionChanged"/>
-                
-                <TextBlock Grid.Row="4" Text="Species data" />
-                <TextBox Grid.Row="6"/>
+                <ListBox Grid.Row="2" Name="ListBoxSpec" SelectionChanged="ListBoxSpec_OnSelectionChanged" />
+
+                <TextBlock Grid.Row="4" Text="Species data" Name="TextBlockSpecData" />
+                <TextBox Grid.Row="6" Name="TextBoxSpecData" />
             </Grid>
-            
+
             <Grid Grid.Column="7" RowDefinitions="30, 20, *, 20, 30">
                 <TextBlock Grid.Row="0" Text="Photo specification" />
-                <Image Grid.Row="2" Name="ImageAnimal"/>
-                <Button Grid.Row="4" Name="ButtonLoadPhoto" Content="Load photo" Click="ButtonLoadPhoto_OnClick"/>
+                <Image Grid.Row="2" Name="ImageAnimal" />
+                <Button Grid.Row="4" Name="ButtonLoadPhoto" Content="Load photo" Click="ButtonLoadPhoto_OnClick" />
             </Grid>
-            
-            
+
+
         </Grid>
-        
-        <Grid Grid.Row="4" Grid.Column="2" ColumnDefinitions="20,*,20,*,20" RowDefinitions="20, *, 20, *, 20">
-            <TextBlock Grid.Column="1" Grid.Row="1" Name="DebugText" Text="Debug mode"></TextBlock>
+
+        <Grid Grid.Row="4" Grid.Column="2" ColumnDefinitions="20,*,20, *,20, *, 20">
+            <TextBlock Grid.Column="1" Name="DebugText" Text="Debug mode" />
+            <ListBox Grid.Column="3" Name="ListBoxAnimal" SelectionChanged="ListBoxAnimal_OnSelectionChanged" />
         </Grid>
-        
-    </Grid>  
+
+    </Grid>
 </Window>

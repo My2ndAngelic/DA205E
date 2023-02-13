@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace BackendLibrary
+﻿namespace BackendLibrary
 {
     public class SDove : CBird
     {
         public const string SpecPre = "D";
 
+        public readonly TBird Species = TBird.Dove;
+
         public int SpecData = 0; // Weight kg
-        
+
         public SDove()
         {
             Id = $"{CatPre}{SpecPre}";

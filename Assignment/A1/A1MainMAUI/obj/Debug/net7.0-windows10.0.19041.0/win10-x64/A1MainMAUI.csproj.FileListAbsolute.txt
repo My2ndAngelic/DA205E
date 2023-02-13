@@ -1,1 +1,0 @@
-C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\A1MainMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\A1MainMAUI.csproj.AssemblyReference.cache

@@ -4,8 +4,8 @@ namespace BackendLibrary
 {
     public class IAnimalList : IList<Animal>
     {
-        private List<Animal?> listAnimals = new List<Animal?>();
-        
+        private readonly List<Animal?> listAnimals = new List<Animal?>();
+
         public IEnumerator<Animal?> GetEnumerator()
         {
             return listAnimals.GetEnumerator();
@@ -69,17 +69,35 @@ namespace BackendLibrary
         public Animal? this[int index]
         {
             get { return listAnimals[index]; }
-            set { listAnimals[index] = value;  }
+            set { listAnimals[index] = value; }
         }
 
         public string ReturnID(Animal? item)
         {
             return $@"{item.Id}{listAnimals.IndexOf(item):0000}";
         }
-        
+
         public string ReturnID(int item)
         {
             return $@"{listAnimals[item].Id}{item:0000}";
+        }
+
+        public List<string> ToListString()
+        {
+            return listAnimals.Select(animal => $@"{animal.Id}{listAnimals.IndexOf(animal):0000} {animal.Name}")
+                .ToList();
+        }
+
+        public string ToStringAnimal(int item)
+        {
+            return $@"{listAnimals[item]}
+ID: {listAnimals[item].Id}{item:0000}";
+        }
+
+        public string ToStringAnimal(Animal item)
+        {
+            return $@"{listAnimals[listAnimals.IndexOf(item)]}
+ID: {listAnimals[listAnimals.IndexOf(item)].Id}{listAnimals.IndexOf(item):0000}";
         }
     }
 }

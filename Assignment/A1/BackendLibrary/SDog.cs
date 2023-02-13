@@ -2,15 +2,16 @@
 {
     public class SDog : CMammal
     {
-        public int SpecData { get; set; }
-        
         public const string SpecPre = "D";
+
+        public readonly TMammal Species = TMammal.Dog;
+
 
         public SDog()
         {
             Id = $"{CatPre}{SpecPre}";
         }
-        
+
         public SDog(string name, int age, TGender gender, int catData, int specData)
         {
             Name = name;
@@ -20,6 +21,8 @@
             SpecData = specData;
             Id = $"{CatPre}{SpecPre}";
         }
+
+        public int SpecData { get; set; } // Tail length
 
         public override string ToString()
         {
