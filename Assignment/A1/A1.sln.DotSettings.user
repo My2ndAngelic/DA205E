@@ -1,9 +1,0 @@
-﻿<wpf:ResourceDictionary xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib"
-                        xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                        xml:space="preserve">
-	<s:Boolean
-            x:Key="/Default/UnloadedProject/UnloadedProjects/=34302d1e_002Deaa2_002D4df0_002Da2d8_002D92555a64434f_0023A1MainWPF/@EntryIndexedValue">True</s:Boolean>
-    <s:Boolean
-            x:Key="/Default/UnloadedProject/UnloadedProjects/=7a6f113e_002D2a35_002D43f1_002Db072_002D1a046c696262_0023A1MainAva/@EntryIndexedValue">True</s:Boolean>
-    <s:Boolean
-            x:Key="/Default/UnloadedProject/UnloadedProjects/=92697a86_002D7a45_002D4879_002D81dc_002Daf255a6ed637_0023A1MainMAUI/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

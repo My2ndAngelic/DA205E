@@ -37,15 +37,13 @@ namespace A1Ava
                 return; // If user cancelled the dialog because DialogResult.OK simply does not exist.
             try // Try reading the file
             {
-                Stream stream = new FileStream(photoFile, FileMode.Open, FileAccess.Read,
-                    FileShare.Read);
-                Bitmap image = new Bitmap(stream);
-                ImageAnimal.Source = image;
+                ImageAnimal.Source = new Bitmap(new FileStream(photoFile, FileMode.Open, FileAccess.Read,
+                    FileShare.Read));
             }
-            catch (ArgumentException) // Fail to load image
+            catch (ArgumentException) // Fail to load image, show error
             {
                 MessageBoxManager.GetMessageBoxStandardWindow(
-                    new MessageBoxStandardParams // Package required: MesssageBox.Avalonia
+                    new MessageBoxStandardParams // Package required: MessageBox.Avalonia
                     {
                         ButtonDefinitions = ButtonEnum.Ok,
                         ContentTitle = "Error",
@@ -111,7 +109,7 @@ namespace A1Ava
             catch (Exception)
             {
                 MessageBoxManager.GetMessageBoxStandardWindow(
-                    new MessageBoxStandardParams // Package required: MesssageBox.Avalonia
+                    new MessageBoxStandardParams // Package required: MessageBox.Avalonia
                     {
                         ButtonDefinitions = ButtonEnum.Ok,
                         ContentTitle = "Error",
