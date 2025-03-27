@@ -1,5 +1,0 @@
-C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\BackendLibrary\obj\Debug\net5.0\BackendLibrary.csproj.AssemblyReference.cache
-C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\BackendLibrary\obj\Debug\net5.0\BackendLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\BackendLibrary\obj\Debug\net5.0\BackendLibrary.AssemblyInfoInputs.cache
-C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\BackendLibrary\obj\Debug\net5.0\BackendLibrary.AssemblyInfo.cs
-C:\Users\My2ndAngelic\Desktop\Courses\DA205E\Assignment\A1\BackendLibrary\obj\Debug\net5.0\BackendLibrary.csproj.CoreCompileInputs.cache
