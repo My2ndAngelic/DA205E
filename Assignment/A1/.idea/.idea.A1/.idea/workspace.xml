@@ -5,150 +5,73 @@
     <projectFile kind="XamarinIOS">A1/A1.csproj</projectFile>
     <projectFile kind="XamarinMacOS">A1/A1.csproj</projectFile>
     <projectFile profileName="Windows Machine">A1/A1.csproj</projectFile>
+    <projectFile>A1_WPF/A1_WPF.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6d1977d-18be-401b-ad50-6f69697401d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/A1-Backend/Animal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A1-Backend/CategoryType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A1-Backend/GenderType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A1-Backend/Mammal/Cat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A1-Backend/Mammal/Dog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A1-Backend/Mammal/Mammal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.A1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.A1/.idea/avalonia.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.A1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A1/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.A1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/FileContentIndex/392d3704-cd75-4e73-a002-5961a0c48592.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/FileContentIndex/5006c4e2-da70-48a6-9241-5317086bfec8.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/FileContentIndex/60c7428e-b82d-44df-935a-5828d7adbd43.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/FileContentIndex/7d48eec4-4b59-4d42-ad29-079b4c33a90f.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/FileContentIndex/read.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/v17/.futdcache.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/A1/v17/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/a1.metadata.v5.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/a1.projects.v5.2" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1-Backend/AnimalFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1-Backend/Bird/Bird.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1-Backend/Bird/Dove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1-Backend/Bird/Falcon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1-Backend/Reptile/Lizard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1-Backend/Reptile/Reptile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1-Backend/Reptile/Snake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.A1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-Backend/A1-Backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/A1-Backend/A1-Backend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-Backend/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-Backend/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-Backend/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-Backend/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-Backend/Mammal/Cat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-Backend/Mammal/Cat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-Backend/Mammal/Dog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-Backend/Mammal/Dog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-Backend/Mammal/Mammal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-Backend/Mammal/Mammal.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/A1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Ava/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Ava/A1Ava.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Ava/App.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Ava/App.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Ava/MainWindow.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Ava/MainWindow.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Ava/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/A1Console.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/bin/Debug/net7.0/A1Console.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/bin/Debug/net7.0/A1Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/bin/Debug/net7.0/A1Console.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/bin/Debug/net7.0/A1Console.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/bin/Debug/net7.0/A1Console.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/bin/Debug/net7.0/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/bin/Debug/net7.0/BackendLibrary.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/A1Console.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/A1Console.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/A1Console.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net6.0/A1Console.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net6.0/A1Console.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net6.0/A1Console.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net6.0/A1Console.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net6.0/A1Console.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net6.0/A1Console.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/A1Console.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/Avalonia/resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/ref/A1Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/Debug/net7.0/refint/A1Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1Console/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/Animal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/BackendLibrary.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/CBird.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/CMammal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/IAnimalList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/SCat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/SDog.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/SDove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/SEagle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/TCategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/TGender.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/bin/Debug/net6.0/BackendLibrary.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/bin/Debug/net6.0/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/bin/Debug/net6.0/BackendLibrary.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/bin/Debug/net7.0/BackendLibrary.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/bin/Debug/net7.0/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/bin/Debug/net7.0/BackendLibrary.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/BackendLibrary.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/BackendLibrary.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/BackendLibrary.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net5.0/BackendLibrary.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/Avalonia/resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/BackendLibrary.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/ref/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net6.0/refint/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/Avalonia/resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/BackendLibrary.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/ref/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/Debug/net7.0/refint/BackendLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendLibrary/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/A1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Fonts/FluentUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/Resources/Styles/Styles.xaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -177,22 +100,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.A1_WPF.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "iOS.A1.executor": "Debug",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "0d570cb2-96df-43cc-80da-7f777e6d0afe",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="iOS.A1">
+}]]></component>
+  <component name="RunManager" selected=".NET Project.A1_WPF">
+    <configuration name="A1_WPF" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/A1_WPF/A1_WPF.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="A1: Windows Machine" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/A1/A1.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0-android" />
@@ -244,6 +187,7 @@
       <workItem from="1743094725893" duration="1247000" />
       <workItem from="1743096122248" duration="89000" />
       <workItem from="1743099248205" duration="1176000" />
+      <workItem from="1743427613688" duration="4544000" />
     </task>
     <servers />
   </component>

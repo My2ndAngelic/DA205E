@@ -1,10 +1,9 @@
 ﻿namespace A1_Backend;
 
-public class Cat : Mammal
+public class Falcon : Bird
 {
-    public Cat()
+    public Falcon()
     {
         
     }
-
 }

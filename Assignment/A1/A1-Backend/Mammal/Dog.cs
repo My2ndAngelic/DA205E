@@ -3,4 +3,9 @@
 public class Dog : Mammal
 {
     public string Breed { get; set; }
+
+    public Dog()
+    {
+        
+    }
 }

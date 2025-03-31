@@ -2,5 +2,11 @@
 
 public class Mammal : Animal
 {
+    public bool Domesticated;
+
+    public Mammal()
+    {
+        
+    }
     
 }
